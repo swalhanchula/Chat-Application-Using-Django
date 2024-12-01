@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-hz_iqbrkj%6(o^5xpo+fj3ft5*jdrx2$^gr@84z!jgx%_td(%s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://swalha.deploy.tz', 'http://127.0.0.1']
 
 
 # Application definition
